@@ -1,29 +1,42 @@
-html , body{
-    margin: 0px;
-    padding:0px;
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-.imageBackground1{
-    position: absolute;
-    height:100px; 
-    // background-size:cover;
-    min-height: 2000px;
-    width:100%;
-    // background-image:url('/assets/background.jpeg');
-    background-image:url('/assets/p2.jpg');
-    background-position:50% 50%;
-    object-fit: cover;
-    overflow: hidden;
-    opacity: .9;
-    // background-repeat: repeat-y;
-  }
+html {
+  // min-height: 100%;
+  background-image: url("/assets/p3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// app-menu {
+//   z-index: 8899998;
+//   position: absolute;
+// }
+
+imageBackground {
+  // min-height: 100%;
+  background-image: url("/assets/p2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
-html{
-    // min-height: 100%;
-    background-image:url('/assets/p3.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+mat-sidenav-container {
+
+  background-image: url("/assets/p3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
