@@ -9,7 +9,7 @@ body {
 
 html {
   // min-height: 100%;
-  background-image: url("/assets/p3.jpg");
+  background-image: url("/assets/images_background/p3.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,20 +23,28 @@ html {
 
 imageBackground {
   // min-height: 100%;
-  background-image: url("/assets/p2.jpg");
+  background-image: url("/assets/images_background/p2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
 mat-sidenav-container {
-
-  background-image: url("/assets/p3.jpg");
+  background-image: url("/assets/images_background/p3.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
 
+mat-sidenav,
+mat-drawer-inner-container {
+  background-image: url("/assets/images_background/p1.jpg") !important;
+  background-position: center;
+  background-size: cover;
+}
+
+mat-sidenav {
+  width: 8em;
 }
