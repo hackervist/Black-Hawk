@@ -49,6 +49,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { MenuComponent } from './nav/menu/menu.component';
 import { BackgroundComponent } from './nav/background/background.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +59,9 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     AboutComponent,
     MenuComponent,
     BackgroundComponent,
-    DashboardComponent
+    DashboardComponent,
+    HomeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
