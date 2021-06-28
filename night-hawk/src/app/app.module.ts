@@ -51,6 +51,13 @@ import { BackgroundComponent } from './nav/background/background.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { LoginComponent } from './account/login/login.component';
+import { RegisterComponent } from './account/register/register.component';
+import { LayoutComponent } from './account/layout/layout.component';
+import { AddEditComponent } from './users/add-edit/add-edit.component';
+import { UsersComponent } from './users/users/users.component';
+import { AlertComponent } from './_components/alert/alert.component';
+import { AccountComponent } from './services/account/account.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +68,14 @@ import { ContactComponent } from './pages/contact/contact.component';
     BackgroundComponent,
     DashboardComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    LoginComponent,
+    RegisterComponent,
+    LayoutComponent,
+    AddEditComponent,
+    UsersComponent,
+    AlertComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,
